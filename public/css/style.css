@@ -1,0 +1,83 @@
+/* .sidebar{
+ background-color: rgb(20, 53, 79);  
+ height: 720px; 
+ background-color: rgb(6, 204, 35);
+} */
+   .sidebar {
+      background-color: black;
+      height: 720px;
+      padding-right: 0;
+      margin-right: 0;
+    }
+
+    .title {
+      background-color: rgb(20, 53, 79);
+    }
+
+    .img {
+      height: 70px;
+      width: 70px;
+      border-radius: 100%;
+
+    }
+
+    .user-name {
+      color: white;
+    }
+
+    .Genaral {
+      color: white;
+      border-bottom: 1px solid red;
+    }
+
+    .sidebar-links {
+      margin-left: 2rem;
+      color: white;
+    }
+
+    .sidebar-items {
+      color: white;
+
+    }
+
+    .sidebar-items a {
+      color: white;
+      text-decoration: none;
+      margin-top: 10px;
+
+    }
+
+    .row {
+      --bs-gutter-x: 0rem;
+    }
+
+    .div1,
+    .div2 {
+      width: 25%;
+      margin: auto;
+    }
+
+    .flogo {
+      background-color: rgb(233, 228, 225);
+    }
+
+    .tlogo {
+      background-color: rgb(124, 187, 255);
+    }
+
+    .ulogo {
+      background-color: rgb(0, 106, 219);
+    }
+
+    .googlelogo {
+      background-color: rgb(219, 95, 0);
+    }
+
+    .width-height {
+      width: 3rem
+    }
+
+    .frineds,
+    .feeds {
+      width: 50%;
+    }

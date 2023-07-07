@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mera page</title>
+    <style>
+        #menu ul{
+            border: 1px solid #336;
+            display: flex;
+            list-style: none;
+            padding: 0px;
+            background-color: black;
+        }
+        a{
+            text-decoration: none;
+
+        }
+        #menu ul li a{
+            display: block;
+            min-width: 70px;
+            text-align: center;
+            text-transform: capitalize;
+            font-family: Arial;
+            padding:8px;
+            color:white;
+            text-shadow: 1px 1px 1px #333;
+            border-right: 1px solid #333;
+        }
+        #menu ul li a:hover,#active{
+        background-color: #444;
+        color: wheat;
+        }
+    </style>
+</head>
+<body>
+    <div contenteditable > Lorem </div>
+    <nav id="menu">
+        <ul>
+            <li> <a href="#daku">Home</a></li>
+            <li> <a href="#" id="active">about</a></li>
+            <li> <a href="">login</a></li>
+        </ul>
+    </nav>    
+    
+</body>
+</html>
