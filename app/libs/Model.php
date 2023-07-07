@@ -3,7 +3,7 @@ class Model extends PDO
 {
     protected $table, $primarykey = 'id';
     function __construct($table)
-    {                                                           
+    {
         parent::__construct('mysql:hostname=' . HOSTNAME . ';dbname=' . DBNAME, USERNAME, PASSWORD);
         if (!$this->table) {
             $this->table = $table;
@@ -47,6 +47,7 @@ class Model extends PDO
             $oc = $this->primarykey;
             $ob = 'desc';
         }
+
         $sql = "select $cols from $this->table order by $oc $ob";
         $rs = $this->prepare($sql);
         $rs->execute();
