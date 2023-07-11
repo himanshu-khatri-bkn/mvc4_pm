@@ -47,7 +47,6 @@ class Model extends PDO
             $oc = $this->primarykey;
             $ob = 'desc';
         }
-
         $sql = "select $cols from $this->table order by $oc $ob";
         $rs = $this->prepare($sql);
         $rs->execute();
