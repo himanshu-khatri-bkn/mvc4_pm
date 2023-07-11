@@ -4,6 +4,7 @@ class Model extends PDO
     protected $table, $primarykey = 'id';
     function __construct($table)
     {
+        //this is model constructor 
         parent::__construct('mysql:hostname=' . HOSTNAME . ';dbname=' . DBNAME, USERNAME, PASSWORD);
         if (!$this->table) {
             $this->table = $table;
