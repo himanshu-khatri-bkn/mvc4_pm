@@ -6,3 +6,5 @@ function redirect($path){
     exit;
 
 }
+// himanshu pagal hai
+?>git

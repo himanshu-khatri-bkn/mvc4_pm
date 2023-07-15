@@ -3,7 +3,8 @@ function boolprint($v)
 {
     if ($v === true)
         return "<b style=\"color:blue\">TRUE</b>";
-    return "<b style=\"color:red\">FALSE</b>";
+    return "<b style=\"color:red\">FALSE</b>"; 
+    // himanshu pagal hai
 }
 function dd($data)
 {
